@@ -4,7 +4,7 @@ body
     background: #30022c;
     background-image: url(../IEEE-webdev/pics/5.jpg);
     /* background-image: linear-gradient(#30022c 40%,#75036c ); */
-    font-family: 'Arial';  
+    font-family: 'Calibri';  
     background-repeat: no-repeat;
 }  
 .login{  
