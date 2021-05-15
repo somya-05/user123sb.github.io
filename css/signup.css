@@ -1,0 +1,64 @@
+body  
+{   margin: 0;  
+    padding: 0;  
+    background: #30022c;
+    background-image: url(../IEEE-webdev/pics/5.jpg);
+    /* background-image: linear-gradient(#30022c 40%,#75036c ); */
+    font-family: 'Times New Roman';  
+    background-repeat: no-repeat;
+}  
+.pics{
+    width: 300px;  
+    height:600px;
+    float:left;
+    background:#065f6b;
+    padding: 50px;
+    margin: 10px;
+    margin-left: 400px;
+    margin-top: 0px;
+    border-radius: 50px ;  
+    text-align: center; 
+    font-size: 30px; 
+    color: #ffffff;  
+    text-transform: capitalize;
+    font-weight: bold;
+    } 
+
+label{  
+    color: #ffffff;  
+     font-size: 30px;  
+    }  
+#Uname{  
+        width: 300px;  
+        height: 35px;  
+        border: none;  
+        border-radius: 3px;  
+        padding-left: 8px;  
+    }  
+#Pass{  
+    width: 300px;  
+    height: 35px;  
+    border:none ;  
+    border-radius: 3px;  
+    padding-left: 8px;  
+    }
+#Email{
+    width: 300px;  
+    height: 35px;  
+    border:none ;  
+    border-radius: 3px;  
+    padding-left: 8px; 
+}
+#Signup{  
+    width: 300px;  
+    height: 40px;  
+    border: none;  
+    border-radius: 25px;  
+    padding-left: 7px;  
+    color: rgb(0, 0, 0);  
+    font-size: 20px;  
+    font-family: 'Times New Roman';  
+    font-weight: bold;
+    position: relative;
+    bottom: 40px;
+}  
