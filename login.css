@@ -35,7 +35,7 @@ h1:hover{
 .pics{
 width: 360px;  
  height:540px;
-float:right;
+float:left;
 background:#065f6b; 
 padding: 50px;
 margin:10px; 
