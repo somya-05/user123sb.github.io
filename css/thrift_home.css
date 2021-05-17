@@ -77,8 +77,8 @@ h1{
 
 }
 h1 img{
-    width:10%; 
-    height: 100px;
+    width:5%; 
+    height: 30px;
     bottom: 150px; 
     margin-top: -2%;
 }
@@ -99,8 +99,8 @@ padding: 1% 0;
 display:table;
 
 }
-.categories img{
-    border: solid 2px #000000; /* Black */
+/* .categories img{
+    border: solid 2px #000000; /* Black 
     width: 80%;
     margin-left: 10%;
     margin-right: 10%;
@@ -111,7 +111,7 @@ display:table;
     transition-duration: 2s;
     transition-timing-function:linear;
     transition-delay:1s;
-}
+} */
 
 .desc{
     background: rgb(116, 27, 151);
@@ -163,3 +163,19 @@ footer{
 h2{
     color:antiquewhite;
 }
+.mySlides{
+    bottom: 50;
+}
+
+.column {
+    float:right;
+    width:27%;
+    padding: 30px;
+  }
+  
+  /* Clear floats after image containers */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
