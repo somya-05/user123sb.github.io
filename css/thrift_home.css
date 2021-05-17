@@ -76,11 +76,16 @@ h2{
 	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 	font-size: 30px;
 }
+.categories a{
+    text-decoration: none;
+    color:antiquewhite;
+}
 .categories{
-width:220px;
+width:30%;
 background: #080808;
 padding: 1% 0;
 display:table;
+
 }
 .categories img{
     border: solid 2px #000000; /* Black */
@@ -90,13 +95,18 @@ display:table;
     margin-top: 8%;
     margin-bottom: 8%;
     display:table;
+    transition-property: border-radius;
+    transition-duration: 2s;
+    transition-timing-function:linear;
+    transition-delay:1s;
 }
 
 .desc{
-    background: rgb(233, 20, 20);
-    width: 58%;
+    background: rgb(116, 27, 151);
+    width: 90%;
 		display: inline-block;
 		padding-left: 2%;
+        font-weight:bold;
 }
 a {
     font-family: Arial,'Times New Roman', Times;
@@ -134,3 +144,10 @@ th {
     top: 100 px;
     left:500px;
 } */
+footer{
+    color:antiquewhite;
+    
+}
+h2{
+    color:antiquewhite;
+}
